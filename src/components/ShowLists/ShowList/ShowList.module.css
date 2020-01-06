@@ -1,0 +1,46 @@
+.ShowList {
+    box-sizing: border-box;
+    padding: 16px 40px;
+}
+
+.ShowList h2 {
+    color: rgb(230, 230, 230);
+}
+
+.Shows {
+    display: flex;
+}
+
+.ShowList:last-child {
+    padding-bottom: 40px;
+}
+
+.SearchDataFound {
+    animation: searchDataFound 3s ease;
+}
+
+@keyframes searchDataFound {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(90%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* .TitleList {
+    padding: 20px 40px;
+    box-sizing: border-box;
+    -webkit-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    opacity: 0;
+    position: relative;
+    z-index: 4;
+} */

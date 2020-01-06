@@ -1,0 +1,16 @@
+.UserProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 10px;
+    /* margin-left: auto; */
+}
+
+.UserProfile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
